@@ -4,12 +4,10 @@ channels:
 dependencies:
   - python=3.6
   - xarray
-  - xhistogram
   - dask
   - dask-labextension
   - distributed
   - dask-kubernetes
-  - intake-xarray
   - zarr
   - matplotlib
   - numcodecs
@@ -22,11 +20,10 @@ dependencies:
   - jupyterlab_launcher
   - jupyter_client
   - ipywidgets
-  - graphviz
   - nodejs
   - pip
   - pip:
-    - kubernetes
-    - graphviz
-    - git+https://github.com/dask/gcsfs@master
     - git+https://github.com/intake/filesystem_spec@master
+    - kubernetes
+    - git+https://github.com/dask/gcsfs@master
+
