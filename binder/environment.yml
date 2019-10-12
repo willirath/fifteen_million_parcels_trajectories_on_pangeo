@@ -9,7 +9,6 @@ dependencies:
   - dask-labextension
   - distributed
   - dask-kubernetes
-  - gcsfs
   - intake-xarray
   - zarr
   - matplotlib
@@ -29,3 +28,5 @@ dependencies:
   - pip:
     - kubernetes
     - graphviz
+    - git+https://github.com/dask/gcsfs@master
+    - git+https://github.com/intake/filesystem_spec@master
