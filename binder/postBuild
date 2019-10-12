@@ -5,4 +5,6 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              jupyter-leaflet \
                              dask-labextension
 
+pip install git+https://github.com/intake/filesystem_spec@master
+
 #EOF
